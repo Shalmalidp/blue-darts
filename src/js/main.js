@@ -24,7 +24,7 @@ if(current.hasClass('last')){
 }
 
 };
-setInterval(moveImages, 1000);
+setInterval(moveImages, 3000);
 
 //CREATING URL FROM API'S
 var compUrl = 'https://json-data.herokuapp.com/darts/companies';

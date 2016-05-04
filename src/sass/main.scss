@@ -1,6 +1,8 @@
 .container{
   border:10px solid lightblue;
-  max-width:100%;
+  width:100%;
+  //margin:0;
+
 }
 
 .logo-name{
@@ -49,7 +51,7 @@ h3{
 }
 .carousel{
   width:55%;
-  border: 2px solid orange;
+  border: 5px solid orange;
   height:300px;
   float:left;
   vertical-align: middle; 
@@ -63,14 +65,15 @@ h3{
     height:300px;
     display: none;
   }
-}
 
-.active{
-  width: 100%;
-  height:300px;
-  display: block;
-}
+  .active{
+    width: 100%;
+    height:290px;
+    display: block;
+    // box-sizing:margin-box;
+  }
 
+}
 
 
 .product{
