@@ -33,6 +33,7 @@ h3{
   text-align: center;
   font-family: 'Playfair Display', serif;
   padding:1% 0;
+  margin-top: 0;
 }
 
 
@@ -51,10 +52,33 @@ h3{
   height:300px;
   float:left;
   vertical-align: middle; 
+  margin-left: 2%;
+  // overflow: hidden;
+  
+  img{
+    width: 100%;
+    height:300px;
+    display: none;
+  }
 }
+
+.active img{
+  width: 100%;
+  height:300px;
+  display: inline-block;
+}
+
+.image-carousel{
+  width: 100%;
+  height:300px;
+  display:inline-block;
+}
+
+
 .product{
   padding:2%;
   float:right;
+  margin-right: 2%;
   width:40%;
   border :2px solid orange;
   vertical-align: top;
@@ -76,6 +100,7 @@ button{
   display: inline-block;
   margin-left: 15%;
   color:orange;
+
 }
 
 //TESTIMONIALS and IMAGES 
@@ -89,13 +114,13 @@ button{
 .t_u{
   width :100%;
   //border:1px solid blue;
-  margin :1% auto;
+  margin :0 auto;
   padding-bottom: 1%;
 }
 
 .test_li{
   width: 30%;
-  height: 200px;
+  height: 300px;
   vertical-align: top;
   //border:2px solid orange;
   margin :1%;
@@ -108,7 +133,14 @@ button{
     text-align: center;
   }
 }
+.photo{
+  text-align: center;
+}
+.photo img{
+  width: 35%;
+  border-radius:50%;
 
+}
 
 
 
@@ -125,7 +157,7 @@ button{
 
 }
 ul {
-  margin :1% auto;
+  margin :0 auto;
 
 }
 
@@ -151,12 +183,13 @@ li img{
   margin-right: -1.5%;
   height:212px;
   background-color: grey;
+  padding:1% 0;
 }
 
 iframe{
   width: 100%;
   //border:1px solid green;
-  // padding:1%;
+  //padding:1% 0;
  
   
 }
